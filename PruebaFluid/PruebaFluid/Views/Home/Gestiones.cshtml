@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Gestiones Page";
+}
+
+<head>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+    <div class="row section-size align-items-center">
+        <div class="col large-4 medium-12 columns verticalLine">
+            <p class="parrafo">Este asistente te indicar&aacute; los pasos a seguir para <strong>solicitar tu acceso a la banca electr&oacute;nica empresarial.</strong></p>
+        </div>
+        <div class="col">
+            <form data-abide novalidate id="formGestiones" action='@Url.Action("Gestiones", "Home")' method="post">
+                <div class="large-12 large-offset-0 medium-10 medium-offset-1 columns">
+                    <div class="row">
+                        <div class="large-4 medium-6 columns col-md">
+                            <input id="radio1" type="radio" name="radioButtons" checked="" value="1" required>
+                            <label class="optRadio" for="radio1"><span><span></span></span>  Registrarse en Banca en L&iacute;nea Empresarial</label>
+                        </div>
+                        <div class="large-4 medium-6 columns col-md">
+                            <input id="radio2" type="radio" name="radioButtons" value="2" required>
+                            <label class="optRadio" for="radio2"><span><span></span></span> Consultar c&oacute;digo de acceso</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="large-9 medium-12 columns mtop20">
+                        <div class="large-6 large-offset-4 medium-6 medium-offset-0 columns">
+                            <div class="g-recaptcha" data-sitekey="6LcqoU0kAAAAAMpBNLtjvmPapbMMohfkl_pmvF9w"></div>
+                        </div>
+                    </div>
+                </div>
+                <input name="response" id="responseInput" hidden>
+            </form>
+            <div class="large-12">
+                <div class="large-4 large-offset-8 medium-5 medium-offset-6 columns mtop20">
+                    <button id="btnAceptar" class="button" onclick="verificar()">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h6 id="token"></h6>
+    </div>
+
+    @if (ViewData["Error"] != null)
+    {
+            <h1> @ViewBag["Error"]</h1>
+    }
+    <script>
+        function verificar() {
+            var response = grecaptcha.getResponse();
+            if (response.length == 0) {
+                alert("Captcha no verificado")
+            } else {
+                alert("Captcha verificado");
+                document.getElementById('responseInput').value = response;
+                document.getElementById('formGestiones').submit();
+            }
+        }
+    </script>
+</body>

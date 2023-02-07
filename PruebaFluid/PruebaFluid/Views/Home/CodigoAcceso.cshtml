@@ -1,0 +1,70 @@
+﻿
+<head>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+
+<body>
+    <div class="row align-items-center">
+        <div class="col columns medium-4 medium-offset-0 large-4 large-offset-1  verticalLine">
+            <p class="parrafo">Por favor ingresa tu ticket y c&oacute;digo de seguridad para obtener tu <strong>c&oacute;digo de acceso </strong>y estar&aacute;s listo para empezar a usar tu banca elect&oacute;nica empresarial.<br><br><strong>N&uacute;mero de ticket: </strong>N&uacute;mero que se encuentra en la solicitud impresa.<br><br><strong>C&oacute;digo de seguridad: </strong>Fue enviado al correo electr&oacute;nico de cada usuario.</p>
+        </div>
+        <div class="col">
+            <form data-abide novalidate id="formCodigoAcceso" action='@Url.Action("CodigoAcceso", "Home")' method="post">
+                @Html.AntiForgeryToken()
+
+                <div class="form-group">
+                    <label> N&uacute;mero de ticket</label><br />
+                    <input name="ticket" id="ticket" class="placeholder numero" type="text" placeholder="Ingresa el n&uacute;mero de ticket" required="" value="@this.ViewData["Ticket"]">
+                </div>
+                <div class="form-group">
+                    <label> C&oacute;digo de seguridad </label><br />
+                    <input autocomplete="off" name="codigoSeguridad" id="codSeguridad" class="placeholder numero" type="password" placeholder="Ingresa el c&oacute;digo de seguridad" required="" maxlength="8">
+                </div>
+
+                <div class="form-group">
+                    <div class="">
+                        <div class="g-recaptcha" data-sitekey="6LcqoU0kAAAAAMpBNLtjvmPapbMMohfkl_pmvF9w"></div>
+                    </div>
+                </div>
+
+                <input hidden name="token" , id="inputToken">
+
+            </form>
+
+            <div class="row">
+                <div class="large-9 large-offset-0  medium-12  columns" style="margin-top: 20px;">
+                    <div class="row">
+                        <div class="medium-6 large-6 medium-push-6 large-push-6 columns">
+                            <button id="btnAceptar" class="button someToken btn btn-success" onclick="verificar()">Continuar</button>
+                        </div>
+                        <div class="medium-6 large-6 medium-pull-6 large-pull-6  columns">
+                            <button id="close" class="button default-action btn btn-warning">Regresar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @if (ViewData["Error"] != null)
+            {
+                <h1> @ViewBag["Error"]</h1>
+            }
+        </div>
+    </div>
+    
+    <script>
+        function verificar() {
+            var response = grecaptcha.getResponse();
+
+            if (response.length == 0) {
+                alert("Captcha no verificado")
+            } else {
+                alert("Captcha verificado");
+                document.getElementById('inputToken').value = response;
+                document.getElementById('formCodigoAcceso').submit();
+
+            }
+        }
+
+    </script>
+
+
+</body>
