@@ -1,0 +1,23 @@
+C:\Users\corpsgonzalez\Desktop\sgonzalez\Fluid attacks 2\PruebaREST\Rest Api\Rest Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\corpsgonzalez\Desktop\sgonzalez\Fluid attacks 2\PruebaREST\Rest Api\Rest Api\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\corpsgonzalez\Desktop\sgonzalez\Fluid attacks 2\PruebaREST\Rest Api\Rest Api\bin\Debug\netcoreapp3.1\Rest Api.exe
+C:\Users\corpsgonzalez\Desktop\sgonzalez\Fluid attacks 2\PruebaREST\Rest Api\Rest Api\bin\Debug\netcoreapp3.1\Rest Api.deps.json
+C:\Users\corpsgonzalez\Desktop\sgonzalez\Fluid attacks 2\PruebaREST\Rest Api\Rest Api\bin\Debug\netcoreapp3.1\Rest Api.runtimeconfig.json
+C:\Users\corpsgonzalez\Desktop\sgonzalez\Fluid attacks 2\PruebaREST\Rest Api\Rest Api\bin\Debug\netcoreapp3.1\Rest Api.runtimeconfig.dev.json
+C:\Users\corpsgonzalez\Desktop\sgonzalez\Fluid attacks 2\PruebaREST\Rest Api\Rest Api\bin\Debug\netcoreapp3.1\Rest Api.dll
+C:\Users\corpsgonzalez\Desktop\sgonzalez\Fluid attacks 2\PruebaREST\Rest Api\Rest Api\bin\Debug\netcoreapp3.1\Rest Api.pdb
+C:\Users\corpsgonzalez\Desktop\sgonzalez\Fluid attacks 2\PruebaREST\Rest Api\Rest Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\corpsgonzalez\Desktop\sgonzalez\Fluid attacks 2\PruebaREST\Rest Api\Rest Api\obj\Debug\netcoreapp3.1\Rest Api.csproj.AssemblyReference.cache
+C:\Users\corpsgonzalez\Desktop\sgonzalez\Fluid attacks 2\PruebaREST\Rest Api\Rest Api\obj\Debug\netcoreapp3.1\Rest Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\corpsgonzalez\Desktop\sgonzalez\Fluid attacks 2\PruebaREST\Rest Api\Rest Api\obj\Debug\netcoreapp3.1\Rest Api.AssemblyInfoInputs.cache
+C:\Users\corpsgonzalez\Desktop\sgonzalez\Fluid attacks 2\PruebaREST\Rest Api\Rest Api\obj\Debug\netcoreapp3.1\Rest Api.AssemblyInfo.cs
+C:\Users\corpsgonzalez\Desktop\sgonzalez\Fluid attacks 2\PruebaREST\Rest Api\Rest Api\obj\Debug\netcoreapp3.1\Rest Api.csproj.CoreCompileInputs.cache
+C:\Users\corpsgonzalez\Desktop\sgonzalez\Fluid attacks 2\PruebaREST\Rest Api\Rest Api\obj\Debug\netcoreapp3.1\Rest Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\corpsgonzalez\Desktop\sgonzalez\Fluid attacks 2\PruebaREST\Rest Api\Rest Api\obj\Debug\netcoreapp3.1\staticwebassets\Rest Api.StaticWebAssets.Manifest.cache
+C:\Users\corpsgonzalez\Desktop\sgonzalez\Fluid attacks 2\PruebaREST\Rest Api\Rest Api\obj\Debug\netcoreapp3.1\staticwebassets\Rest Api.StaticWebAssets.xml
+C:\Users\corpsgonzalez\Desktop\sgonzalez\Fluid attacks 2\PruebaREST\Rest Api\Rest Api\obj\Debug\netcoreapp3.1\scopedcss\bundle\Rest Api.styles.css
+C:\Users\corpsgonzalez\Desktop\sgonzalez\Fluid attacks 2\PruebaREST\Rest Api\Rest Api\obj\Debug\netcoreapp3.1\Rest Api.RazorTargetAssemblyInfo.cache
+C:\Users\corpsgonzalez\Desktop\sgonzalez\Fluid attacks 2\PruebaREST\Rest Api\Rest Api\obj\Debug\netcoreapp3.1\Rest Api.csproj.CopyComplete
+C:\Users\corpsgonzalez\Desktop\sgonzalez\Fluid attacks 2\PruebaREST\Rest Api\Rest Api\obj\Debug\netcoreapp3.1\Rest Api.dll
+C:\Users\corpsgonzalez\Desktop\sgonzalez\Fluid attacks 2\PruebaREST\Rest Api\Rest Api\obj\Debug\netcoreapp3.1\Rest Api.pdb
+C:\Users\corpsgonzalez\Desktop\sgonzalez\Fluid attacks 2\PruebaREST\Rest Api\Rest Api\obj\Debug\netcoreapp3.1\Rest Api.genruntimeconfig.cache
